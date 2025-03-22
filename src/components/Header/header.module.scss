@@ -1,0 +1,15 @@
+.header {
+  position: relative;
+  &:after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background-image: url("../../assets/images/HeroImg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+  }
+}

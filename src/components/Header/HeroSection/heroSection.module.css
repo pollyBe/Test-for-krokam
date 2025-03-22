@@ -1,0 +1,48 @@
+.heroInfo {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 53%;
+}
+.heroInfo .logo {
+  padding: 69px 0 74px;
+}
+.heroInfo h1 {
+  font-weight: 400;
+  color: rgb(28, 40, 51);
+  font-size: 50px;
+  line-height: 100%;
+  margin: 0 0 176px;
+}
+
+.hero {
+  position: relative;
+  z-index: 5;
+}
+.hero:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background-color: rgb(244, 240, 239);
+  border-top-right-radius: 97px;
+  width: 70%;
+  height: 445px;
+  z-index: 2;
+}
+.hero:before {
+  position: absolute;
+  content: "";
+  left: 70%;
+  bottom: 0;
+  width: 185px;
+  height: 445px;
+  z-index: 5;
+  background-color: rgb(244, 240, 239);
+  border-top-left-radius: 97px;
+  border-bottom-right-radius: 100px;
+}
+
+/*# sourceMappingURL=heroSection.module.css.map */
