@@ -1,4 +1,5 @@
 import style from './about.module.scss'
+import {ContactUs} from "@/uiComponents/contactUs";
 
 export const AboutSection = () => {
     return (
@@ -13,7 +14,7 @@ export const AboutSection = () => {
                     <p>We always welcome feedback, open to suggestions and new projects for you and your needs! If you have any ideas for improving the service or feedback on our work, please contact us at info@krokam.com. If you would like to discuss the development of an audio guide or navigator, please fill out the form. We look forward to collaborating!</p>
                 </div>
             </div>
-            <div className={style.aboutBtn}><button>Contact Us</button></div>
+            <ContactUs />
 
         </section>
     )

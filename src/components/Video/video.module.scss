@@ -1,0 +1,44 @@
+.videoWrap{
+  overflow: hidden;
+  height: 605px;
+  width: 1123px;
+  border-radius: 30px;
+}
+.videoSection{
+  padding: 97px 0 98px;
+  position: relative;
+  &:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 142px;
+    height: 92px;
+    border-bottom-left-radius: 94px;
+    border-bottom-right-radius: 94px;
+    background-color: rgba(248, 148, 34, 1);
+  }
+  &:after{
+    position: absolute;
+    content: "";
+    top: 90px;
+    left: 0;
+    width: 142px;
+    height: 332px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 94px;
+    background-color: rgba(248, 148, 34, 1);
+  }
+}
+.figures{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 201.5px;
+  .flow{
+    width: 140px;
+    height: 141px;
+  }
+}

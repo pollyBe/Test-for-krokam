@@ -1,3 +1,4 @@
+// @ts-ignore
 import Logo from '@/assets/icons/logo-6.svg?react'
 
 import style from './heroSection.module.scss'
