@@ -1,4 +1,4 @@
-import style from "@/components/About/about.module.scss";
+import style from "./contactUs.module.scss";
 
 export const ContactUs = () =>{
     return (

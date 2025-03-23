@@ -1,0 +1,42 @@
+.textWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.textWrap label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.textWrap input {
+  background: transparent;
+  border: 1px solid rgb(14, 21, 46);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.checkBoxWrap {
+  display: flex;
+  align-items: center;
+}
+.checkBoxWrap input[type=checkbox] {
+  appearance: none;
+  background: transparent;
+  border: 1px solid rgb(14, 21, 46);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 8px;
+}
+.checkBoxWrap input[type=checkbox]:checked {
+  background-color: rgb(14, 21, 46);
+  border: 1px solid white;
+}
+.checkBoxWrap label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+/*# sourceMappingURL=input.module.css.map */

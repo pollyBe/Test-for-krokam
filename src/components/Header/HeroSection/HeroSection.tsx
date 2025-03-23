@@ -8,7 +8,7 @@ export const HeroSection = () => {
         <section className={style.hero}>
             <div className={style.heroInfo}>
                 <Logo className={style.logo} />
-                <h1>Personal audio guides
+                <h1>Personal audio guides<br/>
                     and navigators for localities and surroundings</h1>
             </div>
         </section>
