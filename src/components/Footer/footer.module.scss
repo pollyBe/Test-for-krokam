@@ -1,0 +1,29 @@
+.footer {
+  padding: 40px 0 101px;
+  .links {
+    margin: 55px 0 0;
+    color: rgba(14, 21, 46, 1);
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    color: rgba(14, 21, 46, 1);
+  }
+}
+.right {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  a {
+    cursor: pointer;
+  }
+}

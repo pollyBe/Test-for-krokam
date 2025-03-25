@@ -1,15 +1,14 @@
-.cardWrap{
+.cardWrap {
   display: flex;
   flex-direction: column;
-  .imgWrap{
-
+  .imgWrap {
     overflow: hidden;
     border-radius: 20px;
-    img{
+    img {
       object-fit: contain;
     }
   }
-  p{
+  p {
     text-align: center;
     font-weight: 500;
     font-size: 18px;

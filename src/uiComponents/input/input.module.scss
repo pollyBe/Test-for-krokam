@@ -1,14 +1,14 @@
-.textWrap{
+.textWrap {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  label{
+  label {
     margin-bottom: 8px;
     font-size: 16px;
     font-weight: 500;
     line-height: 130%;
   }
-  input{
+  input {
     background: transparent;
     border: 1px solid rgba(14, 21, 46, 1);
     border-radius: 10px;
@@ -16,22 +16,23 @@
     font-size: 16px;
   }
 }
-.checkBoxWrap{
+.checkBoxWrap {
   display: flex;
   align-items: center;
-  input[type='checkbox']{
+  input[type="checkbox"] {
     appearance: none;
     background: transparent;
     border: 1px solid rgba(14, 21, 46, 1);
     border-radius: 5px;
     padding: 10px;
     margin-right: 8px;
+    cursor: pointer;
     &:checked {
       background-color: rgb(14, 21, 46);
       border: 1px solid white;
     }
   }
-  label{
+  label {
     font-size: 14px;
     font-weight: 400;
     line-height: 130%;

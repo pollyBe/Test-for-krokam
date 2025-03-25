@@ -6,11 +6,11 @@
   width: 515px;
   padding: 41px 0;
   z-index: 5;
-  &:before{
+  &:before {
     position: absolute;
     top: 0;
     left: 0;
-    content: '';
+    content: "";
     background-color: rgba(244, 240, 239, 1);
     border-bottom-right-radius: 97px;
     border-top-right-radius: 97px;
@@ -18,11 +18,11 @@
     height: 201px;
     z-index: 2;
   }
-  &:after{
+  &:after {
     position: absolute;
     top: 0;
     left: 150%;
-    content: '';
+    content: "";
     background-color: rgba(244, 240, 239, 1);
     width: 202px;
     height: 201px;
@@ -41,7 +41,7 @@
   text-decoration: none;
   cursor: pointer;
 }
-.icon{
+.icon {
   position: relative;
   z-index: 10;
   cursor: pointer;

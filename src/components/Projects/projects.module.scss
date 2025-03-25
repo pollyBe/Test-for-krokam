@@ -1,8 +1,8 @@
-.projectsSection{
+.projectsSection {
   background-color: rgba(57, 92, 122, 1);
   color: rgba(255, 255, 255, 1);
   padding: 80px 0 0 0;
-  h2{
+  h2 {
     font-weight: 600;
     font-size: 40px;
     line-height: 100%;
@@ -11,7 +11,7 @@
   }
 }
 .projectsList {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 30px 34px;
